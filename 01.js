@@ -5,6 +5,9 @@ document.getElementsByTagName("p")[0].innerText = "I Write Code"
 
 // 2.
 
+
+
+
 const arr = []
 document.querySelectorAll(".as-imagegrid-item").forEach((item) => (
     arr.push(item.innerText.replace("\nSupport", ""))
